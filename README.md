@@ -24,11 +24,11 @@ If this error appears
 
  Step 5: Now, open the Git repository where you got the error and remove the current origin by running the following command.
  
-          #git remote remove origin
+          # git remote remove origin
           
  Step 6: Add the new origin by using the following command in your terminal.
           
-          #git remote add origin https://<PERSONALACCESSTOKEN>@github.com/<USERNAME>/<REPO>.git
+          # git remote add origin https://<PERSONALACCESSTOKEN>@github.com/<USERNAME>/<REPO>.git
           
- Atlast -----> git push --set-upstream origin main
+          # git push --set-upstream origin main
 
